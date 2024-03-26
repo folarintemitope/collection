@@ -21,6 +21,14 @@ public class RetrievingElementInLinkedList {
         String element = fruits.get(1);
         System.out.println("element" + element);
 
+        //removing first element from the linkedlist
+        String removeElement = fruits.removeFirst();
+        System.out.println("removeElement " + removeElement);
+
+        //removing lastElement from the linkedlist
+        String removeLastElement = fruits.removeLast();
+        System.out.println("last element removed " + removeLastElement);
+
         for(String elements : fruits){
             System.out.println(elements);
         }
